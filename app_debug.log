@@ -1,0 +1,20 @@
+2026-09-12 21:39:08,664 - INFO - Running pipeline on test_jd.txt and test_resume.txt
+2026-09-12 21:39:08,665 - ERROR - A fatal error occurred: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2026-09-12 21:39:37,435 - INFO - Running pipeline on test_jd.txt and test_resume.txt
+2026-09-12 21:39:37,436 - INFO - Starting training process...
+2026-09-12 21:39:37,436 - INFO - Fitting TF-IDF on 2 docs
+2026-09-12 21:39:37,436 - DEBUG - Vocab size is now: 11
+2026-09-12 21:39:37,436 - INFO - Training complete.
+2026-09-12 21:39:37,436 - INFO - Evaluating match...
+2026-09-12 21:39:37,438 - DEBUG - Calculated similarity: 0.15477613949888974
+2026-09-12 21:57:56,787 - INFO - Running pipeline on test_jd.txt and test_resume.txt
+2026-09-12 21:57:56,787 - ERROR - A fatal error occurred: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2026-09-12 21:58:13,352 - INFO - Running pipeline on test_jd.txt and test_resume.txt
+2026-09-12 21:58:13,353 - INFO - Fitting TF-IDF on 2 docs
+2026-09-12 21:58:13,353 - DEBUG - Vocab size is now: 3
+2026-09-12 21:58:13,353 - INFO - Evaluating match...
+2026-09-12 21:58:13,353 - DEBUG - Calculated similarity: 0.6435507123057984
+2026-09-13 01:21:59,683 - DEBUG - Calculated similarity: 0.4999999999999999
+2026-09-13 01:21:59,683 - INFO - Fitting TF-IDF on 2 docs
+2026-09-13 01:21:59,683 - DEBUG - Vocab size is now: 3
+2026-09-13 01:21:59,684 - WARNING - One of the vectors is all zeros.
