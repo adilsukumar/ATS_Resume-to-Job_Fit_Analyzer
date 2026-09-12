@@ -1,0 +1,18 @@
+Adil Sukumar
+Computer Science Student | Software Engineer
+
+Education:
+Vellore Institute of Technology (VIT) - Computer Science
+
+Skills:
+Languages: Python, Java, C++
+Tools: Git, GitHub, NumPy
+Concepts: Machine Learning, Artificial Intelligence, Vector Mathematics, Linear Algebra
+
+Projects:
+AI Resume-to-Job Fit Analyzer
+- Built a custom Applicant Tracking System (ATS) simulator from scratch.
+- Developed modular Python codebase without relying on heavy ML libraries.
+- Implemented Term Frequency-Inverse Document Frequency (TF-IDF) feature extraction.
+- Engineered a Cosine Similarity math engine using NumPy for performance.
+- Validated mathematical precision using the unittest framework.

@@ -1,0 +1,15 @@
+Software Engineer (Machine Learning)
+
+We are looking for a Software Engineer to join our AI team. The ideal candidate will have strong experience in Python and machine learning algorithms. You should be familiar with Natural Language Processing (NLP) techniques and have experience building custom models from scratch.
+
+Responsibilities:
+- Develop and maintain AI pipelines.
+- Implement NLP algorithms like TF-IDF and Cosine Similarity.
+- Write clean, modular Python code.
+- Write unit tests to validate model accuracy.
+
+Requirements:
+- Bachelor's degree in Computer Science or related field.
+- Proficiency in Python, NumPy, and Git.
+- Deep understanding of linear algebra and vector mathematics.
+- Experience with Applicant Tracking Systems (ATS) is a plus.
