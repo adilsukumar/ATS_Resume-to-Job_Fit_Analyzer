@@ -1,6 +1,6 @@
 Software Engineer (Machine Learning)
 
-We are looking for a Software Engineer to join our AI team. The ideal candidate will have strong experience in Python and machine learning algorithms. You should be familiar with Natural Language Processing (NLP) techniques and have experience building custom models from scratch.
+We are looking for a Software Engineer to join our AI team. The ideal candidate will have strong experience in Python and machine learning algorithms. You must be an expert in Docker, Kubernetes, AWS Cloud, TensorFlow, and PyTorch. 
 
 Responsibilities:
 - Develop and maintain AI pipelines.
