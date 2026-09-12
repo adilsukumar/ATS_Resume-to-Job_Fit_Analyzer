@@ -1,15 +1,4 @@
-Software Engineer (Machine Learning)
-
-We are looking for a Software Engineer to join our AI team. The ideal candidate will have strong experience in Python and machine learning algorithms. You must be an expert in Docker, Kubernetes, AWS Cloud, TensorFlow, and PyTorch. 
-
-Responsibilities:
-- Develop and maintain AI pipelines.
-- Implement NLP algorithms like TF-IDF and Cosine Similarity.
-- Write clean, modular Python code.
-- Write unit tests to validate model accuracy.
+Software Engineer Machine Learning
 
 Requirements:
-- Bachelor's degree in Computer Science or related field.
-- Proficiency in Python, NumPy, and Git.
-- Deep understanding of linear algebra and vector mathematics.
-- Experience with Applicant Tracking Systems (ATS) is a plus.
+Docker Docker Docker Kubernetes Kubernetes AWS AWS TensorFlow PyTorch
