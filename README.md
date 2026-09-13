@@ -1,62 +1,59 @@
 # AI Resume-to-Job Fit Analyzer
 
-This repository contains the implementation of my course project for Artificial Intelligence and Machine Learning. The project is a localized NLP-based tool designed to evaluate the compatibility between a candidate's resume and a target job description.
+Hey! This is my course project for my Fundamentals in AI & ML class. 
 
 ## Overview
-Many qualified applicants are rejected by automated Applicant Tracking Systems (ATS) due to missing keywords. This tool simulates an ATS by analyzing the text of a resume against a job description. It calculates a matching score and identifies critical keywords that the applicant should consider adding.
+Getting past automated Applicant Tracking Systems (ATS) is brutally hard for students these days. I built this local, offline command-line tool to help solve that problem. It acts just like a corporate ATS—you feed it your resume and a job description, and it uses Natural Language Processing (NLP) to calculate a match score. It even tells you exactly which keywords you are missing so you can fix your resume before you apply!
 
-## Key Features
-- **Custom NLP Pipeline**: Implements Term Frequency-Inverse Document Frequency (TF-IDF) and Cosine Similarity entirely from scratch using NumPy.
-- **Actionable Feedback**: Outputs the specific missing keywords to help improve the resume.
-- **Data Privacy**: All files are processed locally on the machine, ensuring personal data is not transmitted to external servers.
-- **Multi-format Support**: Successfully parses text from both `.txt` and `.pdf` files.
+## Features
+- **Built from scratch:** I didn't use any heavy "black-box" ML libraries like scikit-learn. I wrote the TF-IDF and Cosine Similarity math entirely from scratch using NumPy.
+- **Finds missing keywords:** It actually shows you the specific words you need to add to your resume.
+- **100% Private:** It runs completely locally in your computer's RAM, so your private resume data is never sent to the internet.
+- **Reads PDFs and Text:** It can extract text from both `.pdf` and `.txt` files automatically.
 
 ## Technologies Used
-- **Python 3** (Core programming language)
-- **NumPy** (For mathematical vector operations)
-- **PyPDF2** (For parsing PDF documents)
-- **Git & GitHub** (For version control and code hosting)
+- **Python 3:** The core language I used.
+- **NumPy:** Used for all the high-performance vector math (dot products, magnitudes).
+- **PyPDF2:** Used to rip the raw text out of PDF files.
+- **Git & GitHub:** Used for version control.
 
-## Installation and Execution
+## How to Install & Run
 
-1. **Clone the Repository**
-   `git clone https://github.com/adilsukumar/ATS_Resume-to-Job_Fit_Analyzer.git`
-   `cd ATS_Resume-to-Job_Fit_Analyzer`
+1. **Clone the repo to your computer:**
+   ```bash
+   git clone https://github.com/adilsukumar/ATS_Resume-to-Job_Fit_Analyzer.git
+   cd ATS_Resume-to-Job_Fit_Analyzer
+   ```
 
-2. **Environment Setup**
-   It is recommended to use a virtual environment:
-   `python -m venv venv`
-   - On Windows: `venv\Scripts\activate`
-   - On Mac/Linux: `source venv/bin/activate`
+2. **Set up a virtual environment (optional but recommended):**
+   ```bash
+   python -m venv venv
+   # Windows:
+   venv\Scripts\activate
+   # Mac/Linux:
+   source venv/bin/activate
+   ```
 
-3. **Install Dependencies**
-   `pip install -r requirements.txt`
+3. **Install the required libraries:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4. **Run the Application**
-   `python main.py --jd target_job.txt --resume my_resume.pdf`
+4. **Run the tool!**
+   Just pass your job description and resume files into the command line like this:
+   ```bash
+   python main.py --jd sample_jd.txt --resume sample_resume.txt
+   ```
 
-## Testing Instructions
-The project includes automated validation unit tests for the core mathematical models.
-To run the tests, execute:
-`python -m unittest test_model.py`
-The test results are also logged in `test_execution_proof.txt`.
+## Instructions for Testing
+I wrote automated unit tests using Python's built-in `unittest` framework to make sure my math engine wasn't hallucinating. 
+You can run the tests yourself with:
+```bash
+python -m unittest test_model.py
+```
+*(The test results are also logged in `test_execution_proof.txt` if you want to check them out.)*
 
 ## Screenshots
-*(Optional: Execution screenshots can be uploaded here)*
+Here is what it looks like when you run the tool in the terminal:
 
----
-
-## Technical Evaluation Criteria
-- **Modular Implementation**: The system is structured into 6 distinct Python modules (`main.py`, `utils.py`, `data_loader.py`, `features.py`, `model.py`, and `test_model.py`), fulfilling the 5-10 module requirement.
-- **Validation**: Automated unit testing is implemented using Python's `unittest` framework to validate the TF-IDF and Cosine Similarity algorithms.
-- **Subject Concepts**: Successfully applies foundational AI algorithms (TF-IDF and Cosine Similarity) using vector mathematics.
-- **Documentation**: Includes comprehensive inline code comments, design diagrams, and a structured `statement.md`.
-- **Error Handling**: Utilizes `try-except` blocks to handle file reading errors and unsupported formats gracefully.
-- **Version Control**: Developed using Git with consistent commit history.
-
-## Non-Functional Requirements (NFRs)
-- **Performance**: Utilizes vectorized operations via NumPy for efficient scoring.
-- **Security**: Local processing ensures zero external API exposure.
-- **Usability**: Features a straightforward Command-Line Interface (CLI).
-- **Reliability**: Implements fallback mechanisms for file parsing errors.
-- **Logging**: Execution details are logged to `app_debug.log` for troubleshooting.
+*(Add your terminal screenshot here!)*
